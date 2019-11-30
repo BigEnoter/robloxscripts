@@ -1,1 +1,0 @@
-loadstring(game:GetObjects('rbxassetid://3015089451')[1].Source)()
