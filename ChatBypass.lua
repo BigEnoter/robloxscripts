@@ -1,3 +1,9 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Chat Bypass provided by MysticD3AD"
+wait(6)
+h:Remove()
+
 repeat wait() until game:FindFirstChild("Players") ~= nil
 repeat wait() until game.Players.LocalPlayer ~= nil
 
