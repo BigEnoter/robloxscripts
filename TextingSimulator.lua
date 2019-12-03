@@ -1,3 +1,9 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
+
 print("To use the autofarm press b to start and then press b again to stop it!")
 warn("To use the autofarm press b to start and then press b again to stop it!")
 print("To use the autofarm press b to start and then press b again to stop it!")
