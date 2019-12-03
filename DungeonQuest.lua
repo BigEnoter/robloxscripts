@@ -1,3 +1,9 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
+
 _G.TOKEN = "ad0c54cf87efb30e1aa3718c214cd6e83f9ebb19670fc771b9e8616d15c5063c"
 _G.TimeToWait = 0 -- Increase when your game loads slow
 _G.HideOptions = { 
