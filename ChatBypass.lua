@@ -1,6 +1,6 @@
 local h = Instance.new("Message")
 h.Parent = Workspace
-h.Text = "Chat Bypass provided by MysticD3AD"
+h.Text = "Script provided by MysticD3AD"
 wait(6)
 h:Remove()
 
