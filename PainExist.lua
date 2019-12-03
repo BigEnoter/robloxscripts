@@ -1,3 +1,8 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
 --[[
     Synapse Xen v1.1.1 by Synapse GP
     VM Hash: 603dc2e148d41300960a159b807b74988f834c32b99806ec101119e0c4e9dd48
