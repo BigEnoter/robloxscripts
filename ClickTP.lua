@@ -1,3 +1,9 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
+
 mouse = game.Players.LocalPlayer:GetMouse()
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
@@ -8,4 +14,3 @@ pos = CFrame.new(pos.X,pos.Y,pos.Z)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 end)
 tool.Parent = game.Players.LocalPlayer.Backpack
-
