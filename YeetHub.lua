@@ -1,3 +1,9 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
+
 local YeetHubv1 = Instance.new("ScreenGui")
 local Open = Instance.new("ScreenGui")
 local OpenGui = Instance.new("TextButton")
