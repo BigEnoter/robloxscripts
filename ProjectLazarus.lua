@@ -1,3 +1,8 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
 warn("----------------------------------------------------------------")
 print("Thanks to Psykek#3180 for the functions")
 print("Thanks to Psykek#3180 for the functions")
