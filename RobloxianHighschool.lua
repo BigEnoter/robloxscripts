@@ -1,3 +1,8 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
 local bob = Instance.new("Message")
 bob.Parent = Workspace
 bob.Text = "Press k to enable Titan script"
