@@ -1,3 +1,8 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
 if decompile and setclipboard and readfile and writefile and getsenv and getrawmetatable and getrenv and getgenv and saveinstance and debug and debug.getregistry and debug.getupvalue and debug.getupvalues and debug.setupvalue and debug.getconstants then 
 FreeExploit = false
 else 
