@@ -14,9 +14,10 @@ T - Open/Close GUI
 RMB - Activate Aimbot
 ]]
 
-local m = Instance.new("Message")
-m.Parent = Workspace
-m.Text = "Script provided by MysticD3AD | Meow Leaf#4391"
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
 wait(6)
-m:Remove()
+h:Remove()
+
 loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
