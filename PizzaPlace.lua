@@ -1,3 +1,8 @@
+local h = Instance.new("Message")
+h.Parent = Workspace
+h.Text = "Script provided by MysticD3AD"
+wait(6)
+h:Remove()
 --https://v3rmillion.net/showthread.php?tid=723696
 game.StarterGui:SetCore("SendNotification",{Title="Unpatched",Text="k Server checks positions so script has to be spastic af. but it werks ;)",Duration=20,Button1="OK"})
 getupvalues = getupvalues or debug.getupvalues
