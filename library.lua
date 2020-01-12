@@ -36,11 +36,11 @@ local defaults; do
 
         game:GetService('UserInputService').InputBegan:connect(function(key, gpe)
             if (not gpe) then
-                if key.KeyCode == Enum.KeyCode.RightControl then
+                if key.KeyCode == Enum.KeyCode.F15 then
                     library.toggled = not library.toggled;
                     for i, data in next, library.queue do
-                        local pos = (library.toggled and data.p or UDim2.new(-1, 0, -0.5,0))
-                        data.w:TweenPosition(pos, (library.toggled and 'Out' or 'In'), 'Quad', 0.15, true)
+local pos = (library.toggled and data.p or UDim2.new(-1, 0, -0.5,0))
+data.w:TweenPosition(pos, (library.toggled and 'Out' or 'In'), 'Quad', 0.15, true)
                         wait();
                     end
                 end
@@ -1016,7 +1016,7 @@ local defaults; do
         btncolor       = Color3.fromRGB(25, 25, 25);
         dropcolor      = Color3.fromRGB(25, 25, 25);
         sectncolor     = Color3.fromRGB(25, 25, 25);
-        bordercolor    = Color3.fromRGB(60, 60, 60);
+        bordercolor    = Color3.fromRGB(80, 80, 80);
 
         font           = Enum.Font.SourceSans;
         titlefont      = Enum.Font.Code;
