@@ -1,6 +1,6 @@
 local h = Instance.new("Message")
 h.Parent = Workspace
-h.Text = "Script provided by MysticD3AD"
+h.Text = "Script provided by クッキー#6666 (aka MysticD3AD)"
 wait(6)
 h:Remove()
 loadstring(game:GetObjects("rbxassetid://3473939051")[1].Source)()
