@@ -1,6 +1,6 @@
 local h = Instance.new("Message")
 h.Parent = Workspace
-h.Text = "Script provided by MysticD3AD"
+h.Text = "Script provided by MysticD3AD\nWith probably working decompiler"
 wait(6)
 h:Remove()
 
