@@ -1070,7 +1070,7 @@ GetReturn.MouseButton1Down:Connect(function()
 end)
 
 Decompile.MouseButton1Down:Connect(function()
-	dump_script(g_caller)
+	dump_script(decompile(g_caller))
 end)
 
 Step:Connect(function()
