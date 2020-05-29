@@ -1,8 +1,8 @@
-local h = Instance.new("Message")
+--[[local h = Instance.new("Message")
 h.Parent = Workspace
 h.Text = "Script provided by MysticD3AD\nWith working decompiler :)"
 wait(6)
-h:Remove()
+h:Remove()]]--
 
 -- FrontEnd // UI
 
